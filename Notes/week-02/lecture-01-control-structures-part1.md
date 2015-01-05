@@ -32,6 +32,7 @@ if(<condition1>) {
 
 ##### if
 This is a valid if/else structure.
+
 ```
 
 if (x > 3) {
@@ -105,12 +106,12 @@ for(i in 1:4) print(x[i])
 ---
 
 ##### Nested for loops
-`for` loops can be nested
+`for` loops can be nested. This would be used when going through a matrix.
 
 ```
 x <- matrix(1:6, 2, 3)
 
-for(i in seq_len(ncol(x))) {
+for(i in seq_len(nrow(x))) {
     for(j in seq_len(ncol(x))) {
         print(x[i, j])
     }
