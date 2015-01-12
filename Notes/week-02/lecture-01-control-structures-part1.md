@@ -19,6 +19,8 @@ if(<condition>) {
 } else {
     ## do something else
 }
+
+
 if(<condition1>) {
     ## do something
 } else if (<condition2>) {
@@ -42,7 +44,7 @@ if (x > 3) {
 }
 ```
 
-So is this one.
+So is the one below which is a little different than other languages. The entire statement is assigned to `y`. This can make it clear that the construct is set up to define a value for `y`.
 
 ```
 y <- if(x > 3) {
@@ -55,7 +57,7 @@ y <- if(x > 3) {
 ---
 
 ##### if
-Of course, the else clause is not necessary.
+Of course, the else clause is not necessary. If the condition is FALSE, you don't have to do anything, can test multiple conditions in a row.
 
 ```
 if(<condition>) {
@@ -83,7 +85,7 @@ This loop take the `i` variable and in each iteration of the loop gives it value
 ---
 
 ##### for 
-These three loops have the same behavior.
+These three loops have the same behavior. 
 
 ```
 x <- c("a", "b", "c", "d")
