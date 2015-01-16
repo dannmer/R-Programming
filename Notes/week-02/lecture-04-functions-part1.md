@@ -2,7 +2,7 @@
 Functions are created using the 	`function()` directive are are stored as R objects just like anything else. In particular, they are R objects of class "function".
 
 ```
-f <- function(<argumemnts>) {
+f <- function(<arguments>) {
     ## Do something interesting
 }
 ```
@@ -10,7 +10,8 @@ f <- function(<argumemnts>) {
 Functions in R are "first class objects", which means that they can be treated much like any other R objects Importantly,
 
 - Functions can passed as arguments to other functions
-- Functions can be nested, so that you can define a function inside of another function. The return value of a function is the last expression in the function body to be evaluated.
+- Functions can be nested, so that you can define a function inside of another function. 
+- The return value of a function is the last expression in the function body to be evaluated.
 
 ---
 
